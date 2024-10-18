@@ -6,7 +6,7 @@ This was good practice for my vanilla JS knowledge aswell as manipulating the DO
 
 I created a total of 3 Quiz Apps, I couldn't really reach the desired results I had in mind with the other two which I spent most time on. I am submitting this one just because it fits with all the needed criteria to pass this exam. 
 
-I was struggling with the other two quiz apps, you can find one of them in my previous repo to see how farI got. I hope that I can go baxk in the future when I feel confident enought to overcome all the issues I stumbled upon.
+I was struggling with the other two quiz apps, you can find one of them in my previous repo to see how far I got. I hope that I can go back in the future when I feel confident enought to overcome all the issues I stumbled upon.
 
 ------------------------
 
