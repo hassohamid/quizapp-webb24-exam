@@ -23,6 +23,6 @@ I was struggling with the other two quiz apps, you can find one of them in my pr
 
 - It was way harder than I thought it would be.
 - I was humbled by the code many times.
-- Lots of logic in JavaScript, this was a great project to improve your fundamentals which I now understand is very important furtheron.
+- Lots of logic in JavaScript for a complete beginner, this is a great project to improve your fundamentals which I now understand why it is gonna be so important in the future.
 - Learned that JavaScript is King of Web Dev. 
 
