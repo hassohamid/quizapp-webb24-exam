@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#difficulty-container {
+  margin-bottom: 20px;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.option-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  width: 100%;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.option-container:hover {
+  background: rgba(0, 123, 255, 0.1);
+}
+
+.option-container.correct {
+  background: rgba(0, 255, 0, 0.3); /* Green for correct */
+}
+
+.option-container.incorrect {
+  background: rgba(255, 0, 0, 0.3); /* Red for incorrect */
+}
+
+.option-container span {
+  margin-left: 10px;
+}
+
+#timer {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 8px 10px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 5px; /* Space between buttons */
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #555;
+}
+
+#result-container,
+#high-scores-container {
+  margin-top: 20px;
+}
+
+#high-scores-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#high-scores-list li {
+  background: rgba(0, 123, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  #app {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  #timer {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  #options {
+    align-items: center;
+  }
+
+  .option-container {
+    justify-content: center;
+  }
+}
