@@ -1,6 +1,6 @@
 # KnowTopia™ - QuizApp
 
-My submission for the course exam. I created an interactive QuizApp where I fetched different categories and questions by using the OpenTrivia API. 
+Submission for my course project exam. I created an interactive QuizApp where I fetched different categories and questions by using the OpenTrivia API. 
 
 This was good practice for my vanilla JS knowledge aswell as manipulating the DOM. 
 
